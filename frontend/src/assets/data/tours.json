@@ -1,0 +1,253 @@
+[
+  {
+    "_id": "1",
+    "title": "Westminister Bridge",
+    "city": "London",
+    "address": "Somewhere in London",
+    "distance": 300,
+    "price": 200000,
+    "maxGroupSize": 10,
+    "desc": "🌉 Westminster Bridge offers iconic views of London’s skyline, including the Houses of Parliament and Big Ben. It’s a must-visit spot for sightseeing, photography, and experiencing the city’s historic charm. The best time to visit is May to September, when the weather is mild and pleasant (15°C–25°C), perfect for walking tours and river views.",
+    "reviews": [],
+    "photo": "/tour-images/tour-img01.jpg",
+    "featured": true,
+    "bestTimeToVisit": ["May", "June", "July", "August", "September"],
+    "weather": {
+      "avgTemp": "15°C - 25°C",
+      "season": "Mild"
+    },
+    "location": {
+      "lat": 51.5074,
+      "lng": -0.1278
+    },
+    "quickInfo": {
+      "bestTime": "May - September",
+      "weather": "Mild, 15-25°C",
+      "location": "London, UK",
+      "estimatedCost": "₦200,000 per person"
+    }
+  },
+  {
+    "_id": "2",
+    "title": "Bali, Indonesia",
+    "city": "Bali",
+    "address": "Somewhere in Indonesia",
+    "distance": 400,
+    "price": 300000,
+    "maxGroupSize": 8,
+    "desc": "🌴 Bali, Indonesia is a world-famous island paradise known for its beautiful beaches, lush rice terraces, and rich cultural heritage. It’s a perfect destination for relaxation, adventure, and unforgettable tropical experiences. The best time to visit is April to September, when the weather is dry and sunny (25°C–32°C), ideal for sightseeing, beach activities, and island exploration.",
+    "reviews": [],
+    "photo": "/tour-images/tour-img02.jpg",
+    "featured": true,
+    "bestTimeToVisit": ["April", "May", "June", "July", "August", "September"],
+    "weather": {
+      "avgTemp": "25°C - 32°C",
+      "season": "Dry"
+    },
+    "location": {
+      "lat": -8.3405,
+      "lng": 115.0920
+    },
+    "quickInfo": {
+      "bestTime": "April - September",
+      "weather": "Dry, 25-32°C",
+      "location": "Bali, Indonesia",
+      "estimatedCost": "₦300,000 per person"
+    }
+  },
+  {
+    "_id": "3",
+    "title": "Snowy Mountains, Thailand",
+    "city": "Bangkok",
+    "address": "Somewhere in Thailand",
+    "distance": 500,
+    "price": 100000,
+    "maxGroupSize": 8,
+    "desc": "❄️ Snowy Mountains, Thailand Escape to the cooler highlands of Thailand, where misty mountains and refreshing weather create a peaceful retreat from city life. This destination is perfect for nature lovers and travelers seeking scenic views and a calm atmosphere. The best time to visit is November to February, when the weather stays cool and pleasant (20°C–28°C), ideal for sightseeing and outdoor exploration.",
+    "reviews": [],
+    "photo": "/tour-images/tour-img03.jpg",
+    "featured": true,
+    "bestTimeToVisit": ["November", "December", "January", "February"],
+    "weather": {
+      "avgTemp": "20°C - 28°C",
+      "season": "Cool"
+    },
+    "location": {
+      "lat": 13.7563,
+      "lng": 100.5018
+    },
+    "quickInfo": {
+      "bestTime": "November - February",
+      "weather": "Cool, 20-28°C",
+      "location": "Bangkok, Thailand",
+      "estimatedCost": "₦100,000 per person"
+    }
+  },
+  {
+    "_id": "4",
+    "title": "Beautiful Sunrise, Thailand",
+    "city": "Phuket",
+    "address": "Somewhere in Thailand",
+    "distance": 500,
+    "price": 99000,
+    "maxGroupSize": 8,
+    "desc": "🌅 Beautiful Sunrise, Thailand Experience breathtaking sunrises in Phuket, where golden skies meet turquoise seas. This destination is perfect for beach lovers and travelers seeking peaceful mornings and scenic coastal views. The best time to visit is November to March, with dry, sunny weather (25°C–32°C), ideal for relaxing beach walks and unforgettable sunrise moments.",
+    "reviews": [],
+    "photo": "/tour-images/tour-img04.jpg",
+    "featured": true,
+    "bestTimeToVisit": ["November", "December", "January", "February", "March"],
+    "weather": {
+      "avgTemp": "25°C - 32°C",
+      "season": "Dry"
+    },
+    "location": {
+      "lat": 7.8804,
+      "lng": 98.3923
+    },
+    "quickInfo": {
+      "bestTime": "November - March",
+      "weather": "Dry, 25-32°C",
+      "location": "Phuket, Thailand",
+      "estimatedCost": "₦99,000 per person"
+    }
+  },
+  {
+    "_id": "5",
+    "title": "Nusa Pendia Bali, Indonesia",
+    "city": "Bali",
+    "address": "Somewhere in Indonesia",
+    "distance": 500,
+    "price": 100000,
+    "maxGroupSize": 8,
+    "desc": "🌊 Nusa Penida, Bali, Indonesia is a breathtaking island paradise near Bali, known for its dramatic cliffs, crystal-clear waters, and untouched beaches. It’s a perfect destination for adventure seekers, beach lovers, and nature enthusiasts. The best time to visit is April to September, when the weather is dry and sunny (25°C–32°C), ideal for island hopping, swimming, and sightseeing.",
+    "reviews": [],
+    "photo": "/tour-images/tour-img05.jpg",
+    "featured": true,
+    "bestTimeToVisit": ["April", "May", "June", "July", "August", "September"],
+    "weather": {
+      "avgTemp": "25°C - 32°C",
+      "season": "Dry"
+    },
+    "location": {
+      "lat": -8.6767,
+      "lng": 115.1671
+    },
+    "quickInfo": {
+      "bestTime": "April - September",
+      "weather": "Dry, 25-32°C",
+      "location": "Bali, Indonesia",
+      "estimatedCost": "₦100,000 per person"
+    }
+  },
+  {
+    "_id": "6",
+    "title": "Cherry Blossoms Spring",
+    "city": "Tokyo",
+    "address": "Somewhere in Japan",
+    "distance": 500,
+    "price": 500000,
+    "maxGroupSize": 8,
+    "desc": "🌸 Cherry Blossoms Spring, Tokyo Experience the magical beauty of Tokyo’s cherry blossoms as the city transforms into a sea of pink and white. Spring in Tokyo is perfect for scenic walks, photography, and peaceful moments under blooming sakura trees.The best time to visit is March to April, when the weather is cool and pleasant (10°C–18°C), making it ideal for outdoor exploration and cultural experiences.",
+    "reviews": [],
+    "photo": "/tour-images/tour-img06.jpg",
+    "featured": true,
+    "bestTimeToVisit": ["March", "April"],
+    "weather": {
+      "avgTemp": "10°C - 18°C",
+      "season": "Spring"
+    },
+    "location": {
+      "lat": 35.6762,
+      "lng": 139.6503
+    },
+    "quickInfo": {
+      "bestTime": "March - April",
+      "weather": "Spring, 10-18°C",
+      "location": "Tokyo, Japan",
+      "estimatedCost": "₦500,000 per person"
+    }
+  },
+  {
+    "_id": "7",
+    "title": "Holmen Lofoten, France",
+    "city": "Paris",
+    "address": "Somewhere in France",
+    "distance": 500,
+    "price": 700000,
+    "maxGroupSize": 8,
+    "desc": "Holmen Lofoten offers a charming travel experience with scenic views and a relaxing atmosphere. Located in France, it’s perfect for travelers who enjoy culture, sightseeing, and peaceful exploration.The best time to visit is May to September, when the weather is mild and comfortable (15°C–25°C), making it ideal for outdoor activities and city walks.",
+    "reviews": [],
+    "photo": "/tour-images/tour-img07.jpg",
+    "featured": true,
+    "bestTimeToVisit": ["May", "June", "July", "August", "September"],
+    "weather": {
+      "avgTemp": "15°C - 25°C",
+      "season": "Mild"
+    },
+    "location": {
+      "lat": 48.8566,
+      "lng": 2.3522
+    },
+    "quickInfo": {
+      "bestTime": "May - September",
+      "weather": "Mild, 15-25°C",
+      "location": "Paris, France",
+      "estimatedCost": "₦700,000 per person"
+    }
+  },
+  {
+    "title": "Jaflong, Sylhet",
+    "city": "Sylhet",
+    "address": "Somewhere in Sylhet",
+    "distance": 100,
+    "price": 100000,
+    "maxGroupSize": 5,
+    "desc": "🌿Jaflong is a stunning natural destination in Sylhet, known for its clear rivers, stone beds, and lush green tea gardens. Surrounded by hills and peaceful landscapes, it’s a perfect getaway for nature lovers and small groups. The best time to visit is October to February, when the weather stays cool and comfortable (20°C–28°C), making it ideal for sightseeing and relaxation.",
+    "reviews": [],
+    "photo": "/tour-images/tour-img08.jpg",
+    "featured": false,
+    "bestTimeToVisit": ["October", "November", "December", "January", "February"],
+    "weather": {
+      "avgTemp": "20°C - 28°C",
+      "season": "Cool"
+    },
+    "location": {
+      "lat": 25.1620,
+      "lng": 92.0177
+    },
+    "quickInfo": {
+      "bestTime": "October - February",
+      "weather": "Cool, 20-28°C",
+      "location": "Sylhet, Bangladesh",
+      "estimatedCost": "₦100,000 per person"
+    }
+  },
+  {
+    "_id": "9",
+    "title": "Cox's Bazar Sea Beach",
+    "city": "Chittagong",
+    "address": "Somewhere in Chittagong",
+    "distance": 500,
+    "price": 99000,
+    "maxGroupSize": 8,
+    "desc": "🌊 Cox’s Bazar Sea Beach is home to the world’s longest natural sea beach, offering golden sands, rolling waves, and stunning sunsets. Located in Chittagong, it’s a perfect destination for beach lovers, families, and group travelers.The best time to visit is November to March, when the weather stays dry and pleasant (20°C–28°C), ideal for beach walks, sightseeing, and relaxation.",
+    "reviews": [],
+    "photo": "/tour-images/tour-img09.jpg",
+    "featured": false,
+    "bestTimeToVisit": ["November", "December", "January", "February", "March"],
+    "weather": {
+      "avgTemp": "20°C - 28°C",
+      "season": "Dry"
+    },
+    "location": {
+      "lat": 21.4272,
+      "lng": 92.0058
+    },
+    "quickInfo": {
+      "bestTime": "November - March",
+      "weather": "Dry, 20-28°C",
+      "location": "Chittagong, Bangladesh",
+      "estimatedCost": "₦99,000 per person"
+    }
+  }
+]

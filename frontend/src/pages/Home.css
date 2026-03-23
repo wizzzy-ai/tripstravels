@@ -1,0 +1,263 @@
+/* Home.css - Custom styles for the Home page */
+
+/* Container and Layout Utilities */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.lg-flex-row {
+  flex-direction: row;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.lg-w-1-2 {
+  width: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.lg-text-left {
+  text-align: left;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.lg-mt-0 {
+  margin-top: 0;
+}
+
+.flex-col-sm {
+  flex-direction: column;
+}
+
+.sm-flex-row {
+  flex-direction: row;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.lg-justify-start {
+  justify-content: flex-start;
+}
+
+.py-16 {
+  padding: 4rem 0;
+}
+
+.bg-gray-100 {
+  background-color: #f3f4f6;
+}
+
+/* Hero Section Styles */
+.hero-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  animation: fadeInUp 1s ease-out;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  animation: fadeInUp 1.2s ease-out;
+}
+
+.hero-images {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.hero-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.hero-image:hover {
+  transform: scale(1.05);
+}
+
+/* Services Section Styles */
+.services-section {
+  padding: 4rem 0;
+  background-color: #f8f9fa;
+}
+
+.services-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.services-description {
+  font-size: 1.125rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+/* Gallery Section Styles */
+.gallery-section {
+  padding: 4rem 0;
+  background-color: #fff;
+}
+
+.gallery-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.gallery-description {
+  font-size: 1.125rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+/* Featured Tours Section Styles */
+.featured-tours-section {
+  padding: 4rem 0;
+  background-color: #f8f9fa;
+}
+
+.featured-tours-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.featured-tours-description {
+  font-size: 1.125rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+/* Testimonials Section Styles */
+.testimonials-section {
+  padding: 4rem 0;
+  background-color: #fff;
+}
+
+.testimonials-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.testimonials-description {
+  font-size: 1.125rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+/* FAQ Section Styles */
+.faq-section {
+  padding: 4rem 0;
+  background-color: #f8f9fa;
+}
+
+.faq-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.faq-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .hero-images {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .services-title,
+  .gallery-title,
+  .featured-tours-title,
+  .testimonials-title,
+  .faq-title {
+    font-size: 2rem;
+  }
+
+  .faq-section .flex {
+    flex-direction: column;
+  }
+
+  .faq-image {
+    margin-bottom: 2rem;
+  }
+}

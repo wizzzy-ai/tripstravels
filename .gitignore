@@ -1,0 +1,27 @@
+# Dependencies
+**/node_modules/
+
+# Builds
+**/dist/
+**/dist-ssr/
+
+# Env files (keep *.example)
+.env
+.env.*
+!*.env.example
+backend/.env
+frontend/.env
+
+# Logs
+logs
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Uploads (serverless platforms are ephemeral)
+backend/uploads/
+
