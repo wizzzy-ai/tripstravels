@@ -1,5 +1,4 @@
 import express from "express";
-import bodyParser from "body-parser";
 import cors from "cors";
 import dotenv from "dotenv";
 import cookieParser from "cookie-parser";
@@ -47,7 +46,6 @@ app.use(
 
 app.use(express.json());
 app.use(cookieParser());
-app.use(bodyParser.json());
 
 // Serve uploaded files statically (note: serverless filesystems are ephemeral)
 app.use("/uploads", express.static("uploads"));
@@ -63,4 +61,3 @@ app.get("/", (req, res) => {
 });
 
 export default app;
-
