@@ -49,6 +49,7 @@ App: `http://localhost:5173`
    - `MONGO_URL` = your Atlas connection string
    - `JWT_SECRET` = a long random string
    - `FRONTEND_URL` = your deployed frontend URL (or set `CORS_ORIGINS` to a comma-separated list)
+   - Do **not** set `PORT` on Render (Render sets it automatically)
 
 After deploy, you’ll get an API URL like:
 `https://<your-service>.onrender.com`
@@ -68,4 +69,3 @@ The backend only allows requests from:
 - `CORS_ORIGINS` (comma-separated)
 
 Set one of these on your backend host to match your deployed frontend domain.
-

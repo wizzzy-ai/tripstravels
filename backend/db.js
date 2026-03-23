@@ -13,7 +13,10 @@ export async function connectDb() {
     throw new Error("MONGO_URL is not set");
   }
 
-  await mongoose.connect(mongoUrl);
+  console.log("Connecting to MongoDB...");
+  await mongoose.connect(mongoUrl, {
+    serverSelectionTimeoutMS: 10000,
+    connectTimeoutMS: 10000,
+  });
   isConnected = true;
 }
-
